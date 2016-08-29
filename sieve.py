@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Sieve of Eratosthenes
 def sieve(limit):
 	a = [True]*limit
 	a[0]=False
