@@ -1,4 +1,4 @@
-# /usr/bin/pyhton3
+#!/usr/bin/python3
 def sieve(limit):
 	a = [True]*limit
 	a[0]=False
@@ -9,6 +9,9 @@ def sieve(limit):
 			for n in range(i*i,limit,i):
 				a[n]=False
 # s=0
-for i in sieve(2000000):
+print("Enter the limit")
+limit = int(input())
+print("Primes upto ",limit,":")
+for i in sieve(limit):
 	print(i)
 # print(s)
