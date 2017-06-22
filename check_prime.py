@@ -7,7 +7,7 @@ def check_prime(x):
 	if(x%2 == 0): return False
 	if(x%3 == 0): return False
 	div=5
-	diff=4
+	diff=2
 	while(div*div <= x):
 		if(x % div == 0):
 			return False
