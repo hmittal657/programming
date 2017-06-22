@@ -22,7 +22,7 @@ bool isprime(int x){
 	if(x%2 == 0) return false;
 	if(x%3 == 0) return false;
 	int div=5;
-	int diff=4;
+	int diff=2;
 	while(div*div <= x){
 		if(x % div == 0){
 			return false;
